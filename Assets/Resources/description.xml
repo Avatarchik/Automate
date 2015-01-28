@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<game descVersion="3" id="secretelixir" name="Secret Elixir" version="2" minAppVersion="200070" minLevel="75" gameType="both" comingSoon="false">
+    <icon name="secret_elixir-png" width="590" height="738" rows="2" columns="1" />
+    <fun-icon name="secret_elixir_fun-png" width="246" height="446" rows="3" columns="1" />
+
+    <loading background="background-jpg" width="800" height="480" lineX="210" lineY="350">
+        <loadingAnimation file="anim-png" countElements="2" delay="250"/>
+    </loading>
+
+    <field width="640" height="366">
+        <spin blur="true" speed="0.5" timerRate="0.05" knockback="true" delay="-250"/>
+        <rollsarea x="56" y="63" xMargin="11" yMargin="0" elementWidth="96" elementHeight="96" rollsCount="5" elementsPerRoll="3" soundCount="4">
+            <roll index="0" scatterSound="scatter1-mp3"/>
+            <roll index="1" scatterSound="scatter2-mp3"/>
+            <roll index="2" scatterSound="scatter1-mp3"/>
+            <roll index="3" scatterSound="scatter2-mp3"/>
+        </rollsarea>
+        <elements count="18" format="%d-jpg" startIndex="1" width="96" height="96" specialBorder="border-png">
+            <element index="0" winSound="win-small-mp3" allowedRolls="0,1,2,3" scatter="true" wild="true">
+                <animation  name="animate_1" event="win"/>
+            </element>
+            <element index="1" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="1" name="animate_2" event="win"/>
+            </element>
+            <element index="2" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="2" name="animate_3" event="win"/>
+            </element>
+            <element index="3" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="3" name="animate_4" event="win"/>
+            </element>
+            <element index="4" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="4" name="animate_5" event="win"/>
+            </element>
+            <element index="5" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="5" name="animate_6" event="win"/>
+            </element>
+            <element index="6" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="6" name="animate_7" event="win"/>
+            </element>
+            <element index="7" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="7" name="animate_8" event="win"/>
+            </element>
+            <element index="8" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="8" name="animate_9" event="win"/>
+            </element>
+            <element index="9" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="9" name="animate_10" event="win"/>
+            </element>
+            <element index="10" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="10" name="animate_11" event="win"/>
+            </element>
+            <element index="11" winSound="win-small-mp3" allowedRolls="0,1,2,3">
+                <animation index="11" name="animate_12" event="win"/>
+                <animation index="11" name="animate_12" event="bonusWin"/>
+            </element>
+            <element index="12" winSound="win-medium-mp3" allowedRolls="4" canRepeat="true"/>
+            <element index="13" winSound="win-medium-mp3" allowedRolls="4" canRepeat="true"/>
+            <element index="14" winSound="win-medium-mp3" allowedRolls="4" canRepeat="true"/>
+            <element index="15" allowedRolls="4" canRepeat="true"/>
+            <element index="16" allowedRolls="4" canRepeat="true"/>
+            <element index="17" allowedRolls="4" canRepeat="true"/>
+        </elements>
+        <lines count="9" x="0" y="0" width="640" height="366" format="line%d-png" step="1" showTogether="false" showWinningBorder="true" timerRate="0.6" blinkRate="0.4">
+            <line index="0" rolls="1,1,1,1,1" color="FFFF0000"/>
+            <line index="1" rolls="0,0,0,0,0" color="FF00FF00"/>
+            <line index="2" rolls="2,2,2,2,2" color="FF0000FF"/>
+            <line index="3" rolls="0,1,2,1,0" color="FFFF8800"/>
+            <line index="4" rolls="2,1,0,1,2" color="FFFFFF00"/>
+            <line index="5" rolls="1,2,2,2,1" color="FFFF00FF"/>
+            <line index="6" rolls="1,0,0,0,1" color="FF008800"/>
+            <line index="7" rolls="2,2,1,0,0" color="FF00FFFF"/>
+            <line index="8" rolls="0,0,1,2,2" color="FFFFFFFF"/>
+            <indicators x="0" y="0" width="640" height="366" format="%d-png" showBet="false">
+                <indicator index="0"/>
+                <indicator index="1"/>
+                <indicator index="2"/>
+                <indicator index="3"/>
+                <indicator index="4"/>
+                <indicator index="5"/>
+                <indicator index="6"/>
+                <indicator index="7"/>
+                <indicator index="8"/>
+            </indicators>
+<!--            <examples useSpecific="false" x="0" y="0" width="640" height="366" format="%d-png" startIndex="1">
+                <example index="0"/>
+                <example index="2"/>
+                <example index="4"/>
+                <example index="6"/>
+                <example index="8"/>
+            </examples>-->
+            <borders count="9" x="0" y="0" width="100" height="100" format="%d-png" startIndex="0" />
+        </lines>
+        <textures>
+            <texture file="background-png" x="0" y="0" width="640" height="366"/>
+            <texture file="lines/separators-png" x="0" y="0" width="640" height="366"/>
+            <texture file="field-png" x="0" y="0" width="640" height="366"/>
+        </textures>
+    </field>
+
+    <datasource class="com.core.games.secretelixir.SecretElixirDataSource"/>
+
+    <info texture="background-png" width="640" height="366">
+        <pages count="0" format="page%d-jpg"/>
+    </info>
+
+    <double settings="double.xml" class="com.core.games.shared.doubles.RedBlackDoubleGame" />
+    <bonus elements="22" keyword="supergame" settings="bonus.xml" class="com.core.games.secretelixir.SecretElixirBonusGame" />
+</game>
