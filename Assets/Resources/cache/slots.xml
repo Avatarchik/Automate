@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<slots version="22">
+    <slot descVersion="2" fileSize="5735956" gameType="both" id="alcatraz" minAppVersion="200020" minLevel="60" name="Alcatraz" version="1">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/alcatraz</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/alcatraz</test-url>
+        <preview columns="1" height="738" rows="2" width="590"/>
+        <fun-preview columns="1" height="201" rows="3" width="300"/>
+    </slot>
+    <slot descVersion="2" fileSize="3286362" gameType="both" id="bananas" minAppVersion="200020" minLevel="65" name="Bananas" version="5">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/bananas</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/bananas</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="251" rows="3" width="259"/>
+    </slot>
+    <slot descVersion="2" fileSize="5276438" gameType="both" id="bookofra" minAppVersion="200020" minLevel="10" name="Book Of Ra" version="15">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/bookofra</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/bookofra</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="293" rows="3" width="300"/>
+    </slot>
+    <slot descVersion="2" fileSize="6218555" gameType="both" id="climber" minAppVersion="200020" minLevel="55" name="Rock Climber" version="2">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/climber</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/climber</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="227" rows="3" width="300"/>
+    </slot>
+    <slot descVersion="2" fileSize="3050955" gameType="both" id="columbus" minAppVersion="200020" minLevel="45" name="Columbus" version="3">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/columbus</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/columbus</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="285" rows="3" width="290"/>
+    </slot>
+    <slot descVersion="2" fileSize="3322097" gameType="both" id="dolphins" minAppVersion="200020" minLevel="40" name="Dolphin's pearl" version="5">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/dolphins</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/dolphins</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="285" rows="3" width="290"/>
+    </slot>
+    <slot descVersion="2" fileSize="2348513" gameType="both" id="fruit" minAppVersion="200020" minLevel="0" name="Fruit Coctail" version="13">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/fruit</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/fruit</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="286" rows="3" width="300"/>
+    </slot>
+    <slot descVersion="2" fileSize="3455625" gameType="both" id="garage" minAppVersion="200020" minLevel="20" name="Garage" version="6">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/garage</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/garage</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="287" rows="3" width="300"/>
+    </slot>
+    <slot descVersion="2" fileSize="2373596" gameType="both" id="haunter" minAppVersion="200020" minLevel="25" name="Lucky Haunter" version="4">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/haunter</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/haunter</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="302" rows="3" width="300"/>
+    </slot>
+    <slot descVersion="2" fileSize="7912201" gameType="both" id="keks" minAppVersion="200020" minLevel="50" name="Keks" version="2">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/keks</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/keks</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="237" rows="3" width="280"/>
+    </slot>
+    <slot descVersion="2" fileSize="3909900" gameType="both" id="luckylady" minAppVersion="200020" minLevel="30" name="Lucky's Lady Charm" version="8">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/luckylady</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/luckylady</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="288" rows="3" width="300"/>
+    </slot>
+    <slot descVersion="2" fileSize="5298856" gameType="both" id="monkey" minAppVersion="200020" minLevel="1" name="Crazy Monkey" version="14">
+        <url>http://mintdev.ru/monkey.bundle.gz</url>
+        <test-url>http://mintdev.ru/monkey.bundle.gz</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="300" rows="3" width="300"/>
+    </slot>
+    <slot descVersion="2" fileSize="9322540" gameType="both" id="oliversbar" minAppVersion="200070" minLevel="70" name="Oliver's Bar" version="1">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/oliversbar</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/oliversbar</test-url>
+        <preview columns="1" height="738" rows="2" width="590"/>
+        <fun-preview columns="1" height="221" rows="3" width="246"/>
+    </slot>
+    <slot descVersion="2" fileSize="5775572" gameType="both" id="resident" minAppVersion="200020" minLevel="15" name="Resident" version="13">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/resident</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/resident</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="300" rows="3" width="300"/>
+    </slot>
+    <slot descVersion="2" fileSize="8924210" gameType="both" id="secretelixir" minAppVersion="200070" minLevel="75" name="Secret Elixir" version="2">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/secretelixir</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/secretelixir</test-url>
+        <preview columns="1" height="738" rows="2" width="590"/>
+        <fun-preview columns="1" height="208" rows="3" width="223"/>
+    </slot>
+    <slot comingSoon="true" descVersion="2" fileSize="642994" gameType="both" id="sharky" minAppVersion="200081" minLevel="80" name="Sharky" version="1">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/sharky</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/sharky</test-url>
+        <preview columns="1" height="738" rows="2" width="590"/>
+        <fun-preview columns="1" height="208" rows="3" width="223"/>
+    </slot>
+    <slot descVersion="2" fileSize="2846634" gameType="both" id="sizzlinghotdeluxe" minAppVersion="200020" minLevel="35" name="Sizzling Hot" version="14">
+        <url>http://static.vega-slot.com/mobile/prod/2.8.1/sizzlinghotdeluxe</url>
+        <test-url>http://static.vega-slot.com/mobile/test/2.8.1/sizzlinghotdeluxe</test-url>
+        <preview columns="1" height="369" rows="2" width="590"/>
+        <fun-preview columns="1" height="249" rows="3" width="300"/>
+    </slot>
+</slots>
